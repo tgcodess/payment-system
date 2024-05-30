@@ -1,0 +1,65 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform:translateX(-50%);
+    }
+    100% {
+      transform:translateX(0);
+    }
+  }
+  
+.form{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.donation-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../image/IMG-20200326-020901-601jpg.webp");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+form{
+    width: 100%;
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.form{ 
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: rgba(0, 0, 0, 0.5);
+   box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);
+   height: 80vh;
+   width:50%;
+}
+
+.form h1 {
+    width:85%;
+    color:darkorange;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 60%;   
+    }
+}

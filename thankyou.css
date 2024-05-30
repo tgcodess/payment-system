@@ -1,0 +1,27 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+   
+    background-image: url("../image/thankyou.webp");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.1);;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
